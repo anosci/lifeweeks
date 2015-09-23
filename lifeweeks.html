@@ -31,7 +31,14 @@ eventually, this will highlight special events, and color each era...but not yet
 createeve(1990,11,14,"birthday","","life")
 createeve(2005,9,12,"high school begin","","life,unsure")
 createeve(2009,6,12,"high school end","","life,unsure")
+createeve(2009,9,7,"college begin","","life,unsure")
+createeve(2015,5,22,"college end","","life,unsure")
 createeve(2015,9,14,"today","or at least when i began making this page","life")
+
+createera(getevefromlabel("birthday"),getevefromlabel("high school begin"),"uneventful life","633")
+createera(getevefromlabel("high school begin"),getevefromlabel("high school end"),"high school","663")
+createera(getevefromlabel("college begin"),getevefromlabel("college end"),"college","363")
+drawtable()
 </script>
 </body>
 </html>

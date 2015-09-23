@@ -16,10 +16,10 @@ a:visited {
 color:#a6a6ed;
 }
 .w{
-background-color:#000;
+background-color:#222;
 width:10px;
 height:10px;
-border: 2px solid #777;
+border: 2px solid #000;
 margin:4px 2px;
 display:inline;
 float:left;
@@ -33,10 +33,13 @@ display:inline;
 float:left;
 }
 .bg0{
-background-color:#000;
+display:block;
+float:left;
 }
 .bg1{
-background-color:#522;
+background-color:#833;
+display:block;
+float:left;
 }
 .bg2{
 background-color:#552;
